@@ -8,7 +8,8 @@
     color: var(--fontColor);
 }
 body {
-   background: var(--bg); 
+   background: var(--bg);
+   margin: 0em;
 }
 p {
     font-family: helvetica;
@@ -27,13 +28,20 @@ p {
 }
 .btn {
     position: absolute;
-    top: 20px;
-    left: 250px;
-    height: 50px;
-    width: 50px;
+    top: 0%;
+    left: 95%;
+    height: 5em;
+    width: 5em;
     border-radius: 50%;
     border: none;
     color: var(--btnFontColor);
     background-color: var(--btnBg);
 }
 .btn:focus {outline-style: none}
+.image-background{
+    /* background-image: image(images/Christine.jpg); */
+   /*  margin-left: 0%;
+    padding-left: 0%; */
+    height:500% ;
+    width: 50%;
+}
